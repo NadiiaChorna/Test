@@ -1,0 +1,382 @@
+@media (max-width: 1200px){ 
+  .logo {
+    &-title {
+      font-size: 24px;
+    }
+  }
+  .carousel-caption__title {
+    font-size: 28px;
+  }
+  .title-2 {
+    font-size: 16px;
+  }
+
+  .title-2__p, .title-3, .title-3__p{
+    font-size: 11px;
+  }
+
+  .contact {
+    padding: 45px 0;
+    .responsive {
+      max-width: 300px;
+      max-height: 270px;
+    }
+    .form-control {
+      height: 2rem;
+      padding-left: 1rem;
+      margin-bottom: 4%;
+      font-size: 14px;
+    }
+    .textarea {
+      height: 7rem;
+    }
+    .mybtn {
+      padding: 1% 2%;
+    }
+  }
+  .tstmnl{
+    &-body {
+      .content {
+        h2 {
+          font-size: 80px;
+        }
+        p {
+          margin-bottom: 40px;
+          font-size: 14px;
+        }
+        .author {
+          h3, p {
+            font-size: 14px;
+          }
+        }
+      } 
+      .mySlider {
+          .left-arrow, .right-arrow{
+            margin: 0 12px;
+          }
+        img {
+          margin: 0 3px;
+        }
+        .active {
+          width: 55px;
+          height: 55px;
+        }
+      }
+    }
+  } 
+  .footer {
+    .form-control::placeholder {
+      font-size: 11px;
+    }
+  }
+}
+
+
+@media (max-width: 992px){
+  .header-body {
+    .navbar {
+      top: 0;
+      width: 100%;
+    }
+    .carousel-indicators {
+      display: none;
+    }
+    .carousel-caption__title {
+      font-size: 26px;
+    }
+  }
+  .logo {
+    &-title {
+      font-size: 22px;
+    }
+  }
+  .about {
+    .play-button {
+      height: 250px;
+    }
+  }
+  .expertise-body {
+    &__title {
+      margin: 3% 0 3%;
+    } 
+    &__content {
+      li {
+        img {
+          margin-top: 3%;
+        }
+      }
+    }
+  }
+  .title-2 {
+    font-size: 14px;
+  }
+  .title-2__p, .title-3, .title-3__p{
+    font-size: 9px;
+  }
+  .contact {
+    padding: 35px 0;
+    .responsive {
+      max-width: 260px;
+      max-height: 280px;
+    }
+    .form-control {
+      height: 2rem;
+      padding-left: 1rem;
+      margin-bottom: 4%;
+      font-size: 14px;
+    }
+    .textarea {
+      height: 7rem;
+    }
+    .mybtn {
+      padding: 1% 2%;
+    }
+  }
+  .footer {
+    &-body {
+      padding: 2% 0;
+    .responsive {
+      max-width: 180px;
+    }
+    .form-control::placeholder {
+      font-size: 9px;
+    }
+    .help-info {
+      margin-top: 3%;
+    }
+  }
+  .team {   
+    &-body {
+      &__title {
+        text-align: center;
+        margin: 35px auto;
+      }
+    }
+    .message {
+      margin: 5% 0;
+      text-align: center;
+      &-text {
+        font-size: 9px;
+        font-family: "RobotoRegular";
+        color: rgb(243, 243, 243);
+      }
+    }
+  }  
+  }
+ .tstmnl{
+  &-body {
+    .content {
+      h2 {
+        font-size: 75px;
+      }
+      p {
+        margin-bottom: 30px;
+        font-size: 11px;
+      }
+      .author {
+        h3, p {
+          font-size: 11px;
+        }
+      }
+    } 
+    .mySlider {
+        .left-arrow, .right-arrow{
+          margin: 0 10px;
+        }
+      img {
+        margin: 0 3px;
+      }
+      .active {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+  }
+}
+
+@media (max-width: 768px){
+  .header-body {
+    .carousel-caption__title {
+      font-size: 20px;
+    }
+  }
+  .logo {
+    &-title {
+      font-size: 20px;
+    }
+  }
+  .about {
+    &-content {
+      &__logo {
+        display: none;
+      }
+    }
+    .play-button {
+      height: 225px;
+    }
+  }
+  .expertise-body {
+    &__title {
+      margin: 2% 0 2%;
+    } 
+    &__content {
+      li {
+        img {
+          margin-top: 2%;
+        }
+      }
+    }
+  }
+  .title-2 {
+    font-size: 12px;
+  }
+  .title-2__p, .title-3, .title-3__p {
+    font-size: 9px;
+  }
+  .contact {
+    .title-2 {
+      margin-bottom: 20px;
+    }
+    .responsive {
+      max-width: 180px;
+      max-height: 200px;
+    }
+  }
+  .team {   
+    &-body {
+      &__title {
+        text-align: center;
+        margin: 25px auto;
+      }
+    }
+    .message {
+      margin: 3% 0;
+      text-align: center;
+      &-text {
+        font-size: 9px;
+        font-family: "RobotoRegular";
+        color: rgb(243, 243, 243);
+      }
+    }
+  }  
+ .tstmnl{
+  &-body {
+    .content {
+      h2 {
+        font-size: 70px;
+      }
+      p {
+        margin-bottom: 25px;
+        font-size: 11px;
+      }
+      .author {
+        h3, p {
+          font-size: 11px;
+        }
+      }
+    } 
+    .mySlider {
+        .left-arrow, .right-arrow {
+          margin: 0 10px;
+        }
+        img {
+          margin: 0 3px;
+        }
+        .active {
+          width: 60px;
+          height: 60px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px){
+  .header-body { 
+    .navbar {
+      #navbarMenu {
+        justify-content: flex-end;
+      }
+    }
+    .carousel {
+      &-caption {
+        top: 45%;
+        &__title {
+          font-size: 18px;
+        }
+        &__info {
+          padding-bottom: 0px;
+        }
+      }
+    }
+  } 
+  .logo {
+    &-title {
+      font-size: 20px;
+    }
+  }
+  .title-2 {
+    font-size: 12px;
+  }
+  .title-2__p, .title-3, .title-3__p {
+    font-size: 9px;
+  }
+  .clients {
+     display: none;
+   }
+  .contact {
+    .title-2 {
+      margin-bottom: 20px;
+    }
+   
+  }
+  .team {   
+    &-body {
+      &__title {
+        text-align: center;
+        margin: 25px auto;
+      }
+    }
+    .message {
+      margin: 3% 0;
+      text-align: center;
+      &-text {
+        font-size: 9px;
+        font-family: "RobotoRegular";
+        color: rgb(243, 243, 243);
+      }
+    }
+  }  
+ .tstmnl{
+  &-body {
+    .content {
+      h2 {
+        font-size: 70px;
+      }
+      p {
+        margin-bottom: 25px;
+        font-size: 11px;
+      }
+      .author {
+        h3, p {
+          font-size: 11px;
+        }
+      }
+    } 
+    .mySlider {
+        .left-arrow, .right-arrow {
+          margin: 0 10px;
+        }
+        img {
+          margin: 0 3px;
+        }
+        .active {
+          width: 60px;
+          height: 60px;
+        }
+      }
+    }
+  }
+}
+

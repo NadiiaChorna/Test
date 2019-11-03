@@ -1,0 +1,29 @@
+.expertise-body {
+  &__title {
+    text-align: center;
+    margin: 5% 0 5%;
+    @include setRobotoFont(14px, 'PlayfairDisplay');
+    color: $grey;
+    .separator-line {
+      @include separator($grey3);
+    }
+  }
+
+  &__content {
+    li {
+      border-bottom: thin solid $grey3;
+      img {
+        margin-top: 8%;
+      }
+      .title-3 {
+        color: $grey;
+      }
+      .title-3__p {
+        font-family: "RobotoRegular";
+        color: $darkGrey7;
+        margin-top: 1rem;
+        padding-bottom: 7%;
+      }
+    }
+  }
+}

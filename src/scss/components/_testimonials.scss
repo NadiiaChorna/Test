@@ -1,0 +1,57 @@
+.tstmnl{
+  position: relative;
+  &-background {
+    background: url('../../img/teamBG.jpg') no-repeat center center; 
+    background-size: cover;  
+  }
+  &-background:after {
+    @include background-after();
+  }
+
+  &-body {
+    position: relative;
+    padding: 50px 0;
+    z-index: 5;
+    .content {
+      text-align: center;
+      h2 {
+        @include setRobotoFont(100px, 'PlayfairDisplay');
+        color: rgba(255, 255, 255, 0.902);
+      }
+      p {
+        margin-bottom: 50px;
+        @include setRobotoFont(16px, 'thin');
+        color: rgba(255, 255, 255, 0.902);
+      }
+      .author {
+        h3 {
+          @include setRobotoFont(14px, 'bold',uppercase);
+          color: rgb(255, 255, 255);
+        }
+  
+        p {
+          @include setRobotoFont(13px, 'thin', uppercase);
+          color: rgba(255, 255, 255, 0.702);
+        }
+      } 
+    }
+    .mySlider {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+        .left-arrow, .right-arrow{
+          color: $white;
+          filter: brightness(0) invert(1) opacity(.7);
+          margin: 0 15px;
+        }
+      img {
+        margin: 0 5px;
+      }
+      .active {
+        width: 70px;
+        height: 70px;
+      }
+    }
+  }
+}

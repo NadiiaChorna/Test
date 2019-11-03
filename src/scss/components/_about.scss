@@ -1,0 +1,63 @@
+.about {
+  &-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &__logo {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 90%;
+      }
+    }
+    &__info {
+      margin: 5% 0;
+      .title-2 {
+        font-weight: bold;
+        text-align: left;
+        color: $grey;
+        &__p {
+          color: $grey75;
+        }
+      }
+    }
+  }
+  &-video {
+    position: relative;
+    &__background {
+      background: url(../../img/videoBG.jpg) no-repeat center center; 
+      background-size: cover;  
+    }
+    &__background:after {
+      @include background-after();
+    }
+    .play-button {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      z-index: 3;
+      height: 400px;
+      img {
+        width: 4rem;
+        height: 4rem;
+      }
+      p {
+        @include setRobotoFont(16px, 'bold', uppercase);
+        color: $white;
+        margin: 1.5rem;
+      }
+    }  
+  }
+  .modal {
+    &-dialog {
+      margin: 1% auto;
+      max-width: 70%;
+    }
+    &-body {
+      position: relative;
+      padding: 0px;
+    }
+  }
+}

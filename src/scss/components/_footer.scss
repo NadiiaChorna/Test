@@ -1,0 +1,47 @@
+.footer {
+  position: relative;
+  &-background {
+    background: url('../../img/footerBG.jpg') no-repeat center center; 
+    background-size: cover;  
+  }
+  &-background:after {
+    @include background-after();
+  }
+
+  &-body {
+    position: relative;
+    z-index: 7;
+    color: $white;
+    padding: 3% 0;
+    .title-3 {
+      text-align: left;
+    }
+    #address {
+      list-style-image: url('../../img/address.png');
+    }
+    #phone {
+      list-style-image: url('../../img/phone.png');
+    }  
+    .btn {
+      overflow: hidden;
+      background-size: cover;
+      background-position: center;
+      background-image: url('../../img/Btn.png');
+    }
+    .responsive {
+      max-width: 265px;
+    }
+    .form-control::placeholder {
+      color: $white;
+      @include setRobotoFont(14px, 'thin');
+    }
+    .help-info {
+      margin-top: 5%;
+    }
+    .list {
+      .menu {
+        text-transform: uppercase;
+      }
+    }
+  }
+}

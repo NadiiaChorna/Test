@@ -1,0 +1,56 @@
+
+.header-body {
+  position: relative;
+  .navbar {
+    position: absolute;
+    z-index: 2;
+    width: 70%;
+    top: 15px;
+    &-nav {
+      .nav-item {
+        .nav-link {
+          color: $white;
+         }
+        .nav-link:hover {
+          color: $blue;
+        }
+      }
+    }
+  }
+  .carousel {
+    &-item {
+      .separator-line {
+        @include separator($blue);
+      }
+    }
+    &-item:after {
+      @include background-after();
+    }
+    &-caption {
+      transform: translateY(-50%);
+      top: 50%;
+      &__title {
+        @include setRobotoFont(32px, 'PlayfairDisplay');
+        color: $white;
+      }
+      &__info {
+        color: $white;
+        padding-bottom: 20px;
+      }
+    }
+    &-indicators {
+      .dot-indicator {
+        border: 1px solid $white;
+        border-radius: 50%;
+        background: none;
+        width: 8px;
+        height: 8px;
+        margin-bottom: 5%;
+      }
+      .active {
+        background: $blue;
+        border-color: $blue;
+      }
+    }
+  }
+} 
