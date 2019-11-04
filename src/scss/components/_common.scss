@@ -30,58 +30,50 @@ $grey3: rgba(65, 61, 75, 0.3);
 $darkGrey7: rgba(51, 51, 51, 0.7);
 
 //classes
-  .container {
-    width: 70%;
-  }
-  
-  .mybtn {
-    @include setRobotoFont(14px, 'bold', uppercase);
-    border: thin solid rgb(0, 224, 208);
-    color: rgb(0, 224, 208);
-    box-shadow: none;
-  }
-  .mybtn:hover {
-    color: rgb(255, 255, 255);
-    background: rgb(0, 224, 208);
-    box-shadow: none;
-  }
+.container {
+  width: 70%;
+}
 
-  .list {
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+.mybtn {
+  @include setRobotoFont(14px, 'bold', uppercase);
+  border: thin solid rgb(0, 224, 208);
+  color: rgb(0, 224, 208);
+  box-shadow: none;
+}
+.mybtn:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 224, 208);
+  box-shadow: none;
+}
+.list {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.logo {
+  &-title {
+    @include setRobotoFont(30px, 'thin');
+    color: $blue;
   }
-
-  .logo {
-    &-title {
-      @include setRobotoFont(30px, 'thin');
-      color: $blue;
-    }
-  }
-
-  .title-2 {
-    @include setRobotoFont(22px, 'PlayfairDisplay', uppercase);
-  }
-
-  .title-2__p {
-    @include setRobotoFont(14px, 'thin');
-  }
-
-  .title-3 {
-    text-align: center;
-    @include setRobotoFont(14px, 'bold', uppercase);
-    margin-top: 25px;
-  }
-
-  .title-3__p {
-    text-align: center;
-    @include setRobotoFont(14px, 'regular');
-    margin-bottom: 25px;
-  }
-
-  .responsive {
-    width: 100%;
-    height: auto;
-  }
-
+}
+.title-2 {
+  @include setRobotoFont(22px, 'PlayfairDisplay', uppercase);
+}
+.title-2__p {
+  @include setRobotoFont(14px, 'thin');
+}
+.title-3 {
+  text-align: center;
+  @include setRobotoFont(14px, 'bold', uppercase);
+  margin-top: 25px;
+}
+.title-3__p {
+  text-align: center;
+  @include setRobotoFont(14px, 'regular');
+  margin-bottom: 25px;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
