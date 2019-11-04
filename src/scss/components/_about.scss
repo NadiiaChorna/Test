@@ -44,7 +44,6 @@
         height: 4rem;
       }
       p {
-        @include setRobotoFont(16px, 'bold', uppercase);
         color: $white;
         margin: 1.5rem;
       }

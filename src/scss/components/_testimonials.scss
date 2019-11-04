@@ -15,23 +15,21 @@
     .content {
       text-align: center;
       h2 {
-        @include setRobotoFont(100px, 'PlayfairDisplay');
+        @include setRobotoFont(90px, 'PlayfairDisplay');
         color: rgba(255, 255, 255, 0.902);
       }
       p {
         margin-bottom: 50px;
-        @include setRobotoFont(16px, 'thin');
         color: rgba(255, 255, 255, 0.902);
       }
       .author {
         h3 {
-          @include setRobotoFont(14px, 'bold',uppercase);
           color: rgb(255, 255, 255);
         }
   
         p {
-          @include setRobotoFont(13px, 'thin', uppercase);
           color: rgba(255, 255, 255, 0.702);
+          text-transform: uppercase;
         }
       } 
     }

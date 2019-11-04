@@ -1,8 +1,7 @@
 .expertise-body {
   &__title {
     text-align: center;
-    margin: 5% 0 5%;
-    @include setRobotoFont(14px, 'PlayfairDisplay');
+    margin: 5% 0;
     color: $grey;
     .separator-line {
       @include separator($grey3);

@@ -11,10 +11,11 @@
   &-body {
     position: relative;
     z-index: 5;
+    padding: 70px 0;
     color:rgb(255, 255, 255);
     &__title {
       text-align: center;
-      margin: 50px auto;
+      padding-bottom: 50px;
     }
     p {
       color:  rgb(249, 249, 249);
@@ -46,8 +47,6 @@
     margin: 7% 0;
     text-align: center;
     &-text {
-      font-size: 14px;
-      font-family: "RobotoRegular";
       color: rgb(243, 243, 243);
     }
   }

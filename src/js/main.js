@@ -24,7 +24,9 @@ $(".right-arrow").click(function(){
 
 $(window).resize(function(){
   if($(window).width()<992){
-   $('.container').attr('class', 'container-fluid');
-  };
+    $('.container').attr('class', 'container-fluid');
+  } else {
+    $('.container-fluid').attr('class', 'container');
+  }
  });
  
