@@ -1,7 +1,9 @@
 let gulp = require('gulp'),
     plumber = require('gulp-plumber'),
     notify = require('gulp-notify'),
+    rename = require('gulp-rename'),
     config = require('../config'),
+    htmlmin = require('gulp-htmlmin'),
     fileinclude = require('gulp-file-include');
 
 gulp.task('html', () => (

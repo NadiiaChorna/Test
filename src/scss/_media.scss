@@ -294,11 +294,10 @@
 
 @media (max-width: 576px){
   .header-body { 
-    .navbar {
-      #navbarMenu {
-        justify-content: flex-end;
-      }
-    }
+    // .navbar {
+    //   #navbarMenu {
+    //   }
+    // }
     .carousel {
       &-caption {
         top: 45%;

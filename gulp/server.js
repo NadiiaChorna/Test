@@ -5,7 +5,7 @@ gulp.task('server', () => {
   browserSync.init({
     server: {
       baseDir: 'dist/',
-      index: 'index.min.html'
+      index: 'index.html'
     },
     files: ['dist/**/*.*']
   })
