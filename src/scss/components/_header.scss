@@ -1,6 +1,9 @@
 
 .header-body {
   position: relative;
+  .navbar, .nav {
+    float: none;
+  }
   .navbar {
     position: absolute;
     z-index: 2;
