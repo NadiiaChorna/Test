@@ -22,7 +22,7 @@ $(".right-arrow").click(function(){
   $(".item:eq(2)").addClass("active");
 });
 
-$(window).on("load",function(){
+$(window).on("load resize",function(){
   if($(window).width()<992){
     $('.container').attr('class', 'container-fluid');
   } else {
